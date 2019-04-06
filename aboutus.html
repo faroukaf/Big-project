@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizek</title>
+	<link id="style" rel="stylesheet" type="text/css" href="style2.css">
+	<script type="text/javascript">
+		function switch_style() {
+			if (document.getElementById('style').getAttribute('href')=='steel1.css'){
+				document.getElementById('style').href='style2.css'
+			}
+			else{
+				document.getElementById('style').href='steel1.css'
+			}
+		}
+	</script>
+</head>
+<body style="text-align: left;">
+	<div id="id">
+		<h3 style="width: 100%; color: red;">Welcome:Mohamed</h3>
+	</div>
+	<p>
+		We are Shobra faclty of engneering student
+	</p>
+	<footer>
+		<div id="footer" style="text-align: center;">
+			<a class="foot" href="aboutus.html">about as</a>
+			<a class="foot" href="fff">SFE</a>
+			<a class="foot" href="index.html">main</a>
+			<button id="switch" type="button" onclick="switch_style()"><--></button>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizek</title>
+	<link id="style" rel="stylesheet" type="text/css" href="steel1.css">
+	<script type="text/javascript">
+		var q=[]
+		var an=[]
+		var n=0
+		function switch_style() {
+			if (document.getElementById('style').getAttribute('href')=='steel1.css'){
+				document.getElementById('style').href='style2.css'
+			}
+			else{
+				document.getElementById('style').href='steel1.css'
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="id">
+		<h3 style="width: 100%; color: red;">Welcome:Mohamed</h3>
+	</div>
+	<iframe src="ml/ml_q_0.html" id="fram" width="50%" height="50%"></iframe>
+	<div id="buttons">
+		<button class="for">Previus</button>
+		<button class="for">Sumbat</button>
+		<button class="for">Answer</button>
+		<button class="for">Next</button>
+	</div>
+	<footer>
+		<div id="footer">
+			<a class="foot" href="aboutus.html">about as</a>
+			<a class="foot" href="fff">SFE</a>
+			<a class="foot" href="index.html">main</a>
+			<button id="switch" type="button" onclick="switch_style()"><--></button>
+		</div>
+	</footer>
+</body>
+</html>
